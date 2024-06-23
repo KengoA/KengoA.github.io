@@ -1,0 +1,128 @@
+body {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-weight: 300;
+	font-size: 16px;
+  line-height: 30px;
+	margin: 7px;
+	padding: 0;
+  max-width: 800px;
+	margin: 50px auto;
+  padding: 0 1rem;
+}
+
+a {
+  color: gray;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:focus, a:hover {
+  color: black;
+}
+
+sup {
+  line-height: 0;
+}
+
+/* To center images */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 12px;
+  margin: 0 auto;
+  max-width: 100%;
+  font-size: 10px;
+}
+
+blockquote {
+  border-left: 2px solid #cccccc; /* Add a left border */
+  padding: 0 15px; /* Add some padding for space */
+  margin: 10px 0; /* Add margin for separation */
+  color: #555; /* Set the text color */
+}
+
+.post-date {
+  font-family: 'Courier New', Courier, monospace;
+  color: #575757;
+  font-size: 18px;
+}
+
+details[open] {
+  border-bottom:5px solid rgba(0, 0, 255, 0.15);
+}
+summary {
+  cursor:pointer;
+  background-color:rgba(0, 0, 255, 0.15);
+  padding-left: 12px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+progress {
+  width: 100%;
+  background: #fff;
+  color: blue;
+  border: .2rem solid blue;
+  border-radius: 0;
+}
+
+/**
+ * Set the background color of the webkit progress bar.
+ */
+
+progress::-webkit-progress-bar {
+  background-color: #fff;
+}
+
+/**
+ * Set the color of the webkit progress bar.
+ */
+
+progress::-webkit-progress-value {
+  background-color: blue;
+}
+
+/**
+ * Set the color of the mozilla progress bar.
+ */
+
+progress::-moz-progress-bar {
+  background-color: blue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  flex: 1;
+  text-align: left;
+}
+
+.navbar-right {
+  flex: 1;
+  text-align: right;
+}
+
+.logo {
+  max-width: 60%;
+  height: auto;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.navbar-right a {
+  display: inline-block;
+}
