@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kengo's Blog
-description: Thoughts on software, machine learning, geography, chess, basketball, and more.
+description: Thoughts and experiments on software engineering
 ---
 
 {% assign totalPosts = site.posts | size %}
@@ -12,16 +12,11 @@ description: Thoughts on software, machine learning, geography, chess, basketbal
   {% assign totalWords = totalWords | plus: postWords %}
 {% endfor %}
 
-<h2>Hi, I'm Kengo</h2>
+I like building scalable systems by day and trying to reinvent the wheel by night. I was looking for a quiet place on the Internet to document my thougths and experiments on software engineering for some time, and finally decided to start a blog in November 2024.
 
-... and this is my blog, Kengo's Blog.
-
-I like building scalable systems by day and trying to reinvent the wheel by night. I had long been looking for a quiet place on the Internet to document my experiments and thoughts on various topics, and finally decided to start a blog in June 2024.
-
-I live in London and work as a software engineer at Bloomberg. Previously I worked for a MLOps startup, also in London, and prior to that I was at a marketplace company in Tokyo, where I started my career in 2020.
+I live in London and currently work as a Software Engineer at Bloomberg [^1]. Previously I worked for a MLOps startup also in London and prior to that I was at a marketplace company in Tokyo, where I started my career in 2020.
 
 The minimal design of this website is _heavily_ inspired by [Alex Molas's blog], whose content I also highly recommend.
-
 
 [Alex Molas's blog]: https://www.alexmolas.com/
 
@@ -36,3 +31,7 @@ The minimal design of this website is _heavily_ inspired by [Alex Molas's blog],
   </li>
 {% endif %}
 {% endfor %}
+
+---
+
+[^1]: Opinions expressed in this blog are solely my own and do not express the views of my employer.
