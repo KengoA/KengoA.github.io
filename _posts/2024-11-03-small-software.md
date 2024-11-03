@@ -40,7 +40,7 @@ While this software is not suitable for large datasets (>100 MB), it is sufficie
 
 Another choice I made for this small data use case is to <b>process everything on the frontend</b> with TypeScript. While this naturally limits the capacity to handle large data, it provides two important benefits for the potential user and the maintainer.
 
-The benefit for the user is data privacy. You can load your data with sensitive information (i.e. customer data) and don't have to worry about it leaving your laptop. Convincing the user of this, however, is another story. A technical user can check the `Network` tab on their browser to see that there is no network calls made. Another simpler way to ensure this is to turn off your Wi-Fi after the site loads. While some mobile applications are successful at this, communicating to the user that your website is functional offline remains a difficult problem.
+The benefit for the user is data privacy. You can load sentivie data and don't have to worry about it leaving your laptop. Convincing the user of this, however, is another story. A technical person can check the `Network` tab to see that there are no network calls made. Another simpler way to ensure this is to turn off your Wi-Fi after the site loads. While some mobile applications are successful at this, communicating that your website works offline remains a difficult problem.
 
 The benefit for the maintainer is low upkeep. It costs very little for me to run this project as everything is bundled into less than 50 kilobytes of static assets and a few hundred kilobytes of minified JavaScript code, and I do not have to worry about maintaining a database which tends to be costly even for a small project.
 
