@@ -11,12 +11,12 @@ body {
 }
 
 a {
-  color: gray;
+  color: mediumblue;
   text-decoration: underline;
 }
 
 a:visited {
-  color: gray;
+  color: mediumblue;
 }
 
 a:focus, a:hover {
