@@ -6,7 +6,7 @@ category: software
 feature: true
 ---
 
-In this post, I'd like to reflect on the reasons why I think there's a place for small software tailored for small data, and my motivation for building a data visualisation tool called _Visprex_.
+In this post, I'd like to reflect on the reasons why I think there's a place for small software tailored for small data and my motivation for building a data visualisation tool called _Visprex_.
 
 <h2>Why Small Data?</h2>
 
@@ -28,7 +28,7 @@ There are always nuances in how analytics workload should be handled, but I do a
 
 <h2>Building Small Software</h2>
 
-In the spirit of building small software, I have been working on a side project called [Visprex] for a little over a year now, which enables you to use your browser as a data visualisation tool for your CSV files.
+In the spirit of building small software, I have been working on a side project called [Visprex] for over a year now, which enables you to use your browser as a data visualisation tool for your CSV files.
 
 The main features of Visprex include the ability to plot histograms, scatterplots, and a correlation matrix, with additional utility tools for inspecting individual data points from plots, feature transformations, and filtering. See [Visprex Docs] for more details and use cases.
 
@@ -44,15 +44,15 @@ The benefit for the user is data privacy. You can load sentivie data and don't h
 
 The benefit for the maintainer is low upkeep. It costs very little for me to run this project as everything is bundled into less than 50 kilobytes of static assets and a few hundred kilobytes of minified JavaScript code, and I do not have to worry about maintaining a database which tends to be costly even for a small project.
 
-<h3>Future Plans</h3>
+<h3>Upcoming Features</h3>
 
 I'm planning on adding a few more features to Visprex, and one is visualisation for time series data. I'm using [Papa Parse] for parsing data from CSV files, and I need to come up with a better way to handle timestamps of different formats to conditionally display line charts for different features on the Y axis and the timestamp on the X axis.
 
-Another feature I'm keen to work on is [DuckDB Wasm] integration, which adds a SQL editor tab where the user can transform and query data which then updates the in-memory data automatically as inputs for your visualisation. While this increases the bundle size and is useful for advanced users who can write SQL queries in practice, it addresses the main limitation of _everything-on-the-frontend_ approach, as WebAssembly can handle up to 4 GB of in-memory data [^2].
+Another feature I'm keen to work on is [DuckDB Wasm] integration, which would add a SQL editor tab for transforming and querying data and then updates the in-memory data automatically as inputs for your visualisation. While this increases the bundle size and is useful for advanced users who can write SQL queries in practice, it addresses the main limitation of _everything-on-the-frontend_ approach, as WebAssembly can handle up to 4 GB of in-memory data [^2].
 
 <h3>Looking Back</h3>
 
-It's been an enjoyable and fulfilling experience so far to be able to build and showcase a tool that I personally think is useful to my friends and colleagues without worrying about data privacy or running costs. As my day jobs have always been in backend systems, I learnt a lot about building frontend applications with TypeScript and React along with buying and maintaining a domain, and writing documentation.
+It's been an enjoyable and fulfilling experience so far to be able to build and showcase a tool that I personally think is useful to my friends and colleagues without worrying about data privacy or running costs. As my day jobs have always been in backend systems, I learnt a lot about building frontend applications with TypeScript and React along with managing a domain and writing documentation.
 
 I'd also like to give credit to Dr Sean Brocklebank from the University of Edinburgh and Dr Anna Brocklebank for providing feedback on the early iterations of Visprex.
 
