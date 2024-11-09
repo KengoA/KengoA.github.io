@@ -20,11 +20,11 @@ which is also reflective of my experience working at a large marketplace company
 
 Another distinction I would like to illustrate here is that the type and size of data required in analytics and modelling are somewhat different from one another.
 
-In the modern machine learning context, modelling is often associated with non-parametric models (i.e. neural networks) which benefit from having more training data. More concretely, it helps to train the model with edge case scenarios which minimises the loss function on top of capturing general data trends, as the model is able to run inference on specific data points using high-dimensional features.
+In the modern machine learning context, modelling is often associated with building a predictive system (i.e. with neural networks) which benefits from having more training data. More concretely, it helps to train the model with edge case scenarios which minimises the loss function on top of capturing general data trends, as the model is able to run inference on specific data points using high-dimensional features.
 
 On the other hand, the output of analytics work is mainly actionable insights for business functions, where the stakeholders' primary interest is coming up with a policy or a campaign that is effective for the average user in some segment or cohort. For those purposes, having representative user data is often more than enough.
 
-There are always nuances in how analytics workload should be handled, but I do agree with the main points of the article that it is time to acknowledge the headaches associated with infrastructures built for scale, and that there's room for small software in some contexts such as analytics and parametric modelling where a simple, single-machine software can solve most of your problems at hand.
+There are always nuances in how analytics workload should be handled, but I do agree with the main points of the article that it is time to acknowledge the headaches associated with infrastructures built for scale, and that there's room for small software in some contexts such as analytics and linear modelling where a simple, single-machine software can solve most of your problems at hand.
 
 <h2>Building Small Software</h2>
 
