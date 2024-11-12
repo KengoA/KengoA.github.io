@@ -58,6 +58,17 @@ I'd also like to give credit to Dr Sean Brocklebank from the University of Edinb
 
 If you have any feedback or feature requests, please feel free to reach out at [kengo@hey.com]. If you're interested in how I built Visprex, the code is open-source on [GitHub].
 
+
+<h3>Edit: HackerNews</h3>
+
+One week after I published this blog post, I made a submission to HackerNews titled [Show HN: Visprex – Open-source, in-browser data visualisation tool for CSV files](https://news.ycombinator.com/item?id=42096837). This unexpectedly went on to the front page over the weekend and I received a number of useful feedback comments, suggestions, upvotes, and GitHub stars. I was particularly happy to see [this comment](https://news.ycombinator.com/item?id=42098358) from _parsimo2010_:
+
+> I like this a lot- I am going to show it to my students!
+They seem to hate learning R, and while this doesn’t prevent them from having to build a model, this will speed up the exploration steps.
+
+which describes the exact audience and the use case I intended Visprex for.
+Thank you to the HN community if you also came to this blog post from there. I'm planning to work on the features mentioned in the threads (timestamp parsing and data preprocessing), and will keep writing on this blog about major feature releases and updates.
+
 [Visprex]: https://visprex.com
 [Visprex Docs]: https://docs.visprex.com
 [GitHub]: https://github.com/visprex/visprex
